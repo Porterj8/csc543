@@ -32,9 +32,7 @@ export default function RootLayout({
 
   <div className="flex flex-1">
     <Aside />
-    <main className="flex-1 bg-gray-900 text-white p-6">
-      {children}
-    </main>
+    <main className="flex-1 bg-gray-900 text-white p-6">{children}</main>
   </div>
 
   <Footer />
