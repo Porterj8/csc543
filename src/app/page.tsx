@@ -1,5 +1,11 @@
 import Intro from "./intro";
+<section className="bg-green-700 p-6 mb-6 rounded">
+  <Intro />
+</section>
 
+<section className="bg-green-700 p-6 rounded">
+  <Intro />
+</section>
 export default function Home() {
   return (
     <div className="p-6">
