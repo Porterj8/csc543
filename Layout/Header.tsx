@@ -10,20 +10,25 @@ export default function Header() {
           <h1 className="text-xl font-bold">CSC543</h1>
         </div>
 
-       <nav>
-  <ul className="flex gap-6 font-medium">
-    <li>
-      <Link href="/" className="hover:underline">
-        Home
-      </Link>
-    </li>
-    <li>
-      <Link href="/about" className="hover:underline">
-        About
-      </Link>
-    </li>
-  </ul>
-</nav>
+        <nav>
+          <ul className="flex gap-6 font-medium">
+            <li>
+              <Link href="/" className="hover:underline">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:underline">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/posts" className="hover:underline">
+                Posts
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );
